@@ -8,6 +8,7 @@ public class AppSistemaTransporteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AppSistemaTransporteApplication.class, args);
+
 	}
 
 }
