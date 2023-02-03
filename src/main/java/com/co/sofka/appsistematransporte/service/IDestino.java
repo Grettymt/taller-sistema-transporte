@@ -1,7 +1,7 @@
 package com.co.sofka.appsistematransporte.service;
 
 /**
- * Interface destino
+ * Interface Destino que define los métodos que debe implementar la clase Destino
  */
 public interface IDestino {
     public void crearDestino();

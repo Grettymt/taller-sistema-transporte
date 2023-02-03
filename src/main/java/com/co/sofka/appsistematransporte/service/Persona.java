@@ -6,6 +6,7 @@ public class Persona {
      */
     String cedula;
     String nombre;
+    int celular;
 
     /**
      * Getters y setters
@@ -24,5 +25,13 @@ public class Persona {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getCelular() {
+        return celular;
+    }
+
+    public void setCelular(int celular) {
+        this.celular = celular;
     }
 }

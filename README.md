@@ -1,9 +1,9 @@
-#Taller final - sistema de transporte. 
+# Taller final - sistema de transporte. 
 
-#####Cómo correr el proyecto
+### Cómo correr el proyecto
 
-#####Desarrollo del proyecto
+### Desarrollo del proyecto
 
-#####Tipos de dato utilizados
+### Tipos de dato utilizados
 
-#####Estructura de las carpetas 
+### Estructura de las carpetas 
