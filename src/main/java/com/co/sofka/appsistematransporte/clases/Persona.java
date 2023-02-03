@@ -1,21 +1,34 @@
 package com.co.sofka.appsistematransporte.clases;
 
 public abstract class Persona {
+    /**
+     * Atributos
+     */
     protected String nombre;
     protected String apellido;
     protected String cedula;
     protected String telefono;
 
+    /**
+     * Constructor
+     */
     public Persona(){
 
     }
 
+    /**
+     * Sobrecarga del constructor
+     */
     public Persona(String nombre, String apellido, String cedula){
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
     }
 
+
+    /**
+     * Métodos getters y setters
+     */
     public String getNombre() {
         return nombre;
     }

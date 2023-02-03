@@ -4,6 +4,9 @@ import com.co.sofka.appsistematransporte.clases.Persona;
 
 public class Conductor extends Persona {
     private String numeroLicencia = "";
+    public Conductor(){
+
+    }
 
     public Conductor(String nombre, String apellido, String cedula, String numeroLicencia){
         super(nombre, apellido, cedula);

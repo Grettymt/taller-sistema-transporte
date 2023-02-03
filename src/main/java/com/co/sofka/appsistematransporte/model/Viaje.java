@@ -7,6 +7,11 @@ public class Viaje {
     private String hora;
     private Vehiculo bus;
     private boolean finalizado = false;
+    private int ID;
+
+    public Viaje(){
+
+    }
 
     public Viaje(Destino destino, String hora, Vehiculo bus){
         this.destino = destino;
@@ -44,5 +49,13 @@ public class Viaje {
 
     public void setFinalizado(boolean finalizado) {
         this.finalizado = finalizado;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 }

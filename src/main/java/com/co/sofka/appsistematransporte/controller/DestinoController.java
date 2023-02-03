@@ -29,6 +29,6 @@ public class DestinoController {
     @PostMapping("/guardar")
     public ResponseEntity guardarDestinos(@RequestBody Destino destino){
         Destino nuevoDestino = repositorio.guardar(destino);
-        return new ResponseEntity(nuevoDestino, HttpStatus.FOUND);
+        return new ResponseEntity(nuevoDestino, HttpStatus.CREATED);
     }
 }
