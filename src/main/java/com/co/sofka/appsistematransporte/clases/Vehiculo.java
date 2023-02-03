@@ -11,7 +11,8 @@ public abstract class Vehiculo implements IVehiculo {
     protected int numeroAsientos = 0;
     protected List<Persona> pasajeros;
 
-    public Vehiculo(){
+    public Vehiculo(String placa){
+        this.placa = placa;
         this.pasajeros = new ArrayList<>();
     }
 
